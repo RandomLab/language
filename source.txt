@@ -1,0 +1,25 @@
+var paysage = [trou{verdure[chantante]}|rivière{haillons[d'argent]}]  
+	~_accrocher{herbes[folles]}  
+		<~_lumière{soleil[montagne{fière}]}>
+
+var val = [petit{mousse{rayons[éclatants]}}]  
+	~_étendre{lumière[éclat]}  
+		~_répandre{soleil[chaud]}
+
+var soldat = [jeune{bouche[ouverte]}|tête{nue}]  
+	~_repos{nuque[cresson[bleu]]}  
+	~_étendre{corps[herbe]}  
+	if _état(calme) and _réflexion(somme[troublée]):  
+		~_dormir{le_sommeil[profond]}  
+	else:  
+		~_battre{maux[douleurs]}  
+
+var sourire = [nature{berce[enfant]}]  
+	~_réconforter{chaleur[douce]}  
+		~_apaiser{froideur[main[repos]]}
+
+var parfums = [parfum{sans[frisson]}]  
+	~_ne_pas{réagir[sens[absent]]}
+
+var blessure = [trou{rouge[côté_droit]}|main{serrée[poitrine]}]  
+	~_tranquille{repos[ensommeillé]}  
